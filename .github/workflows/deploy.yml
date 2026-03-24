@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: lontiplatform/martini-build-pipeline-github@v2
         with:
           base_url: "https://demo-api.apiexplorer.io"
@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: lontiplatform/martini-build-pipeline-github@v2
         with:
           base_url: "https://demo-api.apiexplorer.io"
