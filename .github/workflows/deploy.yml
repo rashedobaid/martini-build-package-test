@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: lontiplatform/martini-build-pipeline-github@v2
+      - uses: actions/checkout@v6
+      - uses: lontiplatform/martini-build-pipeline-github@v3
         with:
           base_url: "https://demo-api.apiexplorer.io"
           access_token: ${{ secrets.MARTINI_ACCESS_TOKEN }}
@@ -20,8 +20,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: lontiplatform/martini-build-pipeline-github@v2
+      - uses: actions/checkout@v6
+      - uses: lontiplatform/martini-build-pipeline-github@v3
         with:
           base_url: "https://demo-api.apiexplorer.io"
           access_token: ${{ secrets.MARTINI_ACCESS_TOKEN }}
